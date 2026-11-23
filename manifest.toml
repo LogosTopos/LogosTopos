@@ -1,0 +1,104 @@
+[profile]
+handle = "Topology"
+github_user = "LogosTopos"
+subtitle_en = "/ archive & treatises"
+tagline = "实验记录、精排讲义与译注陈列室"
+colophon_note = "题头 Hopf 纤维丛投影与分栏铭牌由仓库内 scripts/hopf_geometry.py 按 Nord 极夜/雪暴规范生成。"
+
+[[sections]]
+id = "bench"
+roman = "I"
+title_zh = "实验台"
+title_en = "Bench & Empirical Logs"
+accent_dark = "#D08770"
+accent_light = "#BF616A"
+
+  [[sections.items]]
+  name = "gemma-4-developer-agent"
+  repo_url = "https://github.com/LogosTopos/gemma-4-developer-agent"
+  artifact_label = ""
+  artifact_url = ""
+  tag = "Python · SWE-bench"
+  summary = "围绕 Kaggle Gemma 4 评测框架之逆向剖析、零 GPU 本地验证工具链与声明式基线记录。"
+
+  [[sections.items]]
+  name = "parallel-distributed-computing"
+  repo_url = "https://github.com/LogosTopos/parallel-distributed-computing"
+  artifact_label = ""
+  artifact_url = ""
+  tag = "C · MPI · OpenMP"
+  summary = "并行与分布式数值实验，涵盖底层并发原语、消息传递通信剖析与吞吐对照记录。"
+
+  [[sections.items]]
+  name = "dsh-std"
+  repo_url = "https://github.com/LogosTopos/dsh-std"
+  artifact_label = ""
+  artifact_url = ""
+  tag = "Meta-Protocol · Harness"
+  summary = "Agent 插件互操作元协议、环境身份迁移规范与本地多模态受控评测装置。"
+
+[[sections]]
+id = "treatises"
+roman = "II"
+title_zh = "讲义与译本"
+title_en = "Treatises & Translations"
+accent_dark = "#A3BE8C"
+accent_light = "#5E81AC"
+accent_light_secondary = "#A3BE8C"
+
+  [[sections.items]]
+  name = "Riemann-Surface-Lecture-Notes"
+  repo_url = "https://github.com/LogosTopos/Riemann-Surface-Lecture-Notes"
+  artifact_label = "TeX 源码"
+  artifact_url = "https://github.com/LogosTopos/Riemann-Surface-Lecture-Notes"
+  tag = "LaTeX · 十四章讲义"
+  summary = "黎曼曲面复习讲义，依香蕉空间底本重写与扩充，含十四章独立源码与统一合订本。"
+
+  [[sections.items]]
+  name = "math-analysis-notes"
+  repo_url = "https://github.com/LogosTopos/math-analysis-notes"
+  artifact_label = "讲义与解答"
+  artifact_url = "https://github.com/LogosTopos/math-analysis-notes"
+  tag = "LaTeX · 习题解答"
+  summary = "谢惠民《数学分析习题课讲义》下册（Ch.13–26）与楼红卫数分讲义之方法整理与解答。"
+
+  [[sections.items]]
+  name = "composing-programs-zh"
+  repo_url = "https://github.com/LogosTopos/composing-programs-zh"
+  artifact_label = "译本仓库"
+  artifact_url = "https://github.com/LogosTopos/composing-programs-zh"
+  tag = "CS61A · 中文译稿"
+  summary = "UC Berkeley CS61A 教材 Composing Programs 中文逐章译稿与配套算例归档。"
+
+[[sections]]
+id = "sketches"
+roman = "III"
+title_zh = "装置与札记"
+title_en = "Marginalia & Sketches"
+accent_dark = "#B48EAD"
+accent_light = "#434C5E"
+accent_light_secondary = "#B48EAD"
+
+  [[sections.items]]
+  name = "Fudan_iCourse_Subscriber"
+  repo_url = "https://github.com/LogosTopos/Fudan_iCourse_Subscriber"
+  artifact_label = ""
+  artifact_url = ""
+  tag = "Python · ASR + LLM"
+  summary = "课程录屏定时抓取、语音转写与摘要投递流水线，附本地直播流回环播放装置。"
+
+  [[sections.items]]
+  name = "epsilon-bit-ai-composer"
+  repo_url = "https://github.com/LogosTopos/epsilon-bit-ai-composer"
+  artifact_label = ""
+  artifact_url = ""
+  tag = "Python · Symbolic Audio"
+  summary = "八位芯片音乐符号生成与算法作曲小品。"
+
+  [[sections.items]]
+  name = "local-treatises-in-progress"
+  repo_url = "https://github.com/LogosTopos"
+  artifact_label = ""
+  artifact_url = ""
+  tag = "XeLaTeX · 在编手稿"
+  summary = "黎曼映照定理严格化重建、几何表示论与稳定包络讲义及《法哲学原理》导读札记。"
